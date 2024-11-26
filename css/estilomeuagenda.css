@@ -1,0 +1,79 @@
+.h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.dg{
+   border: solid 2px #381148;
+}.de{
+    border-top: solid 1px #381148;
+}
+
+.input{
+    border-radius: 10px;
+}
+
+body{
+    background-image: url(imagens/show2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(1px);
+    background-size: 100% 100%;
+    background-color: #0c0914;
+}
+
+main{}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: #ff5500;
+    transition: 0.8s;
+}
+
+
+.footercolor{
+    background-color: #0f0811;
+}
+
+.logo{
+    padding: auto;
+    height: 150px;
+    width: 150px;
+}
+
+.pi{
+    margin-top: 1vh;
+    height: 300px;
+    width: 300px;
+}
+
+.coi{
+    border: none;
+    background-color: #310e3f00;
+}
+
+.m{
+    margin-top:10vh;
+    margin-bottom: 10vh;
+}
+
+.emblema{
+    height: 200px;
+    width: 200px;
+}
+
+@media (min-width: 340px) and (max-width:480px) {
+body{
+        background-image: none;
+        background-size: 100% 25%;
+    }
+
+    
+}
+
